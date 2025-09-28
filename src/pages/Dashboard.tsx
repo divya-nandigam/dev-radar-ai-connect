@@ -1,4 +1,5 @@
 import { DevRadarCard } from "@/components/DevRadarCard";
+import { DevRadarLogo } from "@/components/DevRadarLogo";
 import { Button } from "@/components/ui/button";
 import { SkillBadge } from "@/components/SkillBadge";
 import { Zap, Target, Users, TrendingUp, Code2, Lightbulb } from "lucide-react";
@@ -33,8 +34,9 @@ export function Dashboard() {
     <div className="min-h-screen bg-background pb-20 pt-6">
       <div className="max-w-lg mx-auto px-4 space-y-6">
         {/* Header */}
-        <div className="text-center space-y-2">
-          <h1 className="text-2xl font-bold bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
+        <div className="text-center space-y-3">
+          <DevRadarLogo size="lg" className="justify-center" />
+          <h1 className="text-xl font-bold bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
             Welcome back, Developer! 👋
           </h1>
           <p className="text-muted-foreground">Let's continue building your tech journey</p>
