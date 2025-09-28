@@ -1,73 +1,54 @@
-# Welcome to your Lovable project
+# DevRadar - Developer Networking & Career Growth
 
-## Project info
+## About
 
-**URL**: https://lovable.dev/projects/39317102-618b-4392-aa92-13241498a16e
+**Developer**: Divya Nandigam  
+**GitHub**: https://github.com/divya-nandigam  
 
-## How can I edit this code?
+DevRadar is a mobile-first developer networking platform that helps developers showcase skills, discover projects, connect with mentors, and receive AI-powered career guidance.
 
-There are several ways of editing your application.
+## Development Setup
 
-**Use Lovable**
-
-Simply visit the [Lovable Project](https://lovable.dev/projects/39317102-618b-4392-aa92-13241498a16e) and start prompting.
-
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
+Follow these steps to run the project locally:
 
 ```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+# Step 1: Clone the repository
+git clone https://github.com/divya-nandigam/DevRadar.git
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+# Step 2: Navigate to the project directory
+cd DevRadar
 
-# Step 3: Install the necessary dependencies.
-npm i
+# Step 3: Install dependencies
+npm install
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Step 4: Start the development server
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+## Features
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+- **AI-Powered Recommendations**: Personalized project and skill suggestions
+- **Developer Community**: Connect and share with fellow developers
+- **Mentorship Platform**: Find mentors and grow your career
+- **Project Showcase**: Display your work and discover new opportunities
+- **Skill Tracking**: Monitor your development progress
 
-**Use GitHub Codespaces**
+## Technology Stack
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+This project is built with modern web technologies:
 
-## What technologies are used for this project?
+- **Frontend**: React + TypeScript + Vite
+- **Styling**: Tailwind CSS + shadcn/ui components
+- **Routing**: React Router
+- **State Management**: TanStack Query
+- **Icons**: Lucide React
 
-This project is built with:
+## Deployment
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+This app is designed for deployment to:
+- **Mobile**: Android Play Store & iOS App Store (via Capacitor)
+- **Web**: Vercel, Netlify, or any static hosting service
 
-## How can I deploy this project?
+## License
 
-Simply open [Lovable](https://lovable.dev/projects/39317102-618b-4392-aa92-13241498a16e) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+Created by Divya Nandigam. All rights reserved.
